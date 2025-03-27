@@ -1,0 +1,702 @@
+  a {
+    cursor: pointer;
+  }
+
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  header nav {
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Logo {
+    font-size: 20px;
+  }
+
+  .Link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+  }
+
+  .Link a {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 20px ;
+  flex-grow: 1; 
+  margin-left: 10px;
+  }
+  .menu{
+    display: none;
+  }
+   .menu_tendina{
+    width: 25px;
+    height:3px;
+    background-color: #8b5e3c;
+    margin-top: 1px;
+   }
+
+  .button {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  .UFFIZI {
+    background-image: url("Uffizi2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    z-index: -2;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    padding: 100px 30px;
+    padding-left: 50px;
+  }
+
+  .Link_info {
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .Link_info a {
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 15px;
+    flex-grow: 1;
+    margin-left: 5px;
+  }
+
+  .Informazioni {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 40px;
+    width: fit-content;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lora', serif;
+  }
+
+  h2 {
+    padding: 5px 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  .Temi_collezioni {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Singola_collezione {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+    width: 240px;
+    height: 340px;
+    margin-bottom: 20pxs;
+    justify-content: center;
+  }
+
+  .Singola_collezione a {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  div.pittura {
+    background-image: url("Pittura.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.architettura {
+    background-image: url("Architettura.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    margin-bottom: 9px;
+    border-radius: 5px;
+  }
+
+  div.scultura {
+    background-image: url("Scultura.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.disegno {
+    background-image: url("Disegni.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 9px;
+
+  }
+
+  div.archivio {
+    background-image: url("libri.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.foto {
+    background-image: url("foto.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  .Singola_collezione a {
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 20px;
+    flex-grow: 1;
+    margin-left: 1px;
+  }
+
+  .Singola_collezione p {
+    flex-grow: 1;
+    text-size-adjust: 10px;
+  }
+
+  .Tipo_info {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: -40px;
+  }
+
+  .Tipo_info p {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+
+  .tipo_biglietto {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid grey;
+  }
+
+  .tipo_biglietto a {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+
+  .Newsletter {
+    background-image: url("venere.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+  }
+
+  .Avvisi {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: -40px;
+    flex-grow: 1;
+    border-bottom: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avviso {
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    display: inline-flex;
+    flex-grow: 1;
+    justify-content: center;
+    background: white;
+    margin: 10px 10px;
+    border-left: 5px solid grey;
+    border-radius: 5px;
+
+  }
+
+  .avviso a {
+    flex-grow: 1;
+    margin-left: 10px;
+    justify-content: center;
+  }
+
+  .Altre_info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info_plus {
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+    width: 100px;
+    height: 130px;
+    margin-bottom: 20pxs;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+
+  }
+
+  div.accessibilità {
+    background-image: url("accessibilità.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.scuola {
+    background-image: url("scuola.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.famiglie {
+    background-image: url("famiglie.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.educazione {
+    background-image: url("educazione.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.guide {
+    background-image: url("guide.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+  }
+
+  div.studiosi {
+    background-image: url("studiosi.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+    margin-right: 50px;
+  }
+
+  .Altre_info a {
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 15px;
+    flex-grow: 1;
+    margin-left: 1px;
+  }
+
+  .footer {
+    text-align: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Link_fine {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .Link_fine a {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 15px;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-bottom: -15px;
+  }
+
+  @media (max-width: 780px) {
+    header {
+      flex-direction: column;
+      padding: 10px;
+      align-items: flex-start;
+    }
+
+    .Link a {
+      font-size: 18px;
+      padding: 8px 12px;
+      margin-left: 5px;
+    }
+
+    .button {
+      margin: 10px auto;
+     margin-top: 20px;
+    }
+
+    .Link {
+   display: none;
+  }
+    .Link a {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 20px ;
+    flex-grow: 1; 
+    margin-left: 10px;
+   }
+   .menu{
+    display: block
+   }
+    .UFFIZI {
+      padding: 80px 20px;
+      text-align: center;
+      height: 150px;
+      font-size: 20px;
+    }
+
+    .Informazioni {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      padding: 40px;
+      width: fit-content;
+      text-align: left;
+      font-size: 15px;
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Lora', serif;
+    }
+
+    .Link_info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .Link_info a{
+      font-size: 15px;
+      justify-content: left;
+    }
+    .Temi_collezioni {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      border-bottom: 1px solid grey;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Singola_collezione {
+      background-color: rgb(238, 238, 238);
+      padding: 20px;
+      text-align: left;
+      width: 90%;
+      height: max-content;
+      margin-bottom: 20pxs;
+      justify-content: center;
+    }
+
+    div.pittura {
+      background-image: url("Pittura.jpg");
+      background-size: cover;
+      height: 350px;
+      width: auto;
+      margin-bottom: 9px;
+    }
+
+    div.architettura {
+      background-image: url("Architettura.jpg");
+      background-size: cover;
+      height: 350px;
+      width: auto;
+      margin-bottom: 9px;
+    }
+
+    div.scultura {
+      background-image: url("Scultura.jpg");
+      background-size: cover;
+      height: 350px;
+      width: auto;
+      margin-bottom: 9px;
+    }
+
+    div.disegno {
+      background-image: url("Disegni.jpg");
+      background-size: cover;
+      height: 350px;
+      width: auto;
+      margin-bottom: 9px;
+
+    }
+
+    div.archivio {
+      background-image: url("libri.jpg");
+      background-size: cover;
+      height: 300px;
+      width: auto;
+      margin-bottom: 9px;
+    }
+
+    div.foto {
+      background-image: url("foto.jpg");
+      background-size: cover;
+      height: 350px;
+      width: auto;
+      margin-bottom: 9px;
+    }
+
+    .Singola_collezione a {
+      padding: 10px 5px;
+      text-align: center;
+      font-size: 20px;
+      flex-grow: 1;
+      margin-left: 1px;
+    }
+
+    .Singola_collezione p {
+      flex-grow: 1;
+      font-size: 0px;
+    }
+
+    .Tipo_info {
+      padding: 10px;
+      margin: 10px;
+      margin-bottom: -40px;
+      font-size: 15px;
+    }
+    .Tipo_info h2{
+      font-size: 20px;;
+    }
+    .Tipo_info p{
+      font-size: 15px;
+    }
+    .tipo_biglietto {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 5px solid grey;
+    }
+
+    .tipo_biglietto a {
+      flex-grow: 1;
+      margin-left: 10px;
+      font-size: 15px;
+    }
+    .tipo_biglietto p{
+      font-size: 15px;
+    }
+    .tipo_biglietto h3{
+      font-size: 18px;
+      margin-top: -5px;
+    }
+
+    .Newsletter {
+      background-image: url("venere.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 100px;
+      margin: 30px;
+      margin-bottom: -15px;
+      text-align: center;
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    .Newsletter a {
+      color: #f5f5f5;
+    }
+
+    .Avvisi {
+      padding: 10px;
+      margin: 15px;
+      margin-bottom: -30px;
+      flex-grow: 1;
+      border-bottom: 1px solid gray;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      font-size: 15px;
+    }
+
+    .avviso {
+      padding: 10px;
+      width: 200px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: center;
+      background: white;
+      margin: 10px 10px;
+      border-left: 5px solid grey;
+      border-radius: 5px;
+    }
+
+    .avviso a {
+      flex-grow: 1;
+      margin-left: 10px;
+      justify-content: center;
+      font-size: 10px;
+    }
+
+    .Altre_info {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      border-bottom: 1px solid grey;
+      justify-content: left;
+      align-items: left;
+      flex-direction: column;
+    }
+
+    .info_plus {
+      padding: 10px;
+      border-radius: 6px;
+      text-align: left;
+      width: 100px;
+      height: 10px;
+      justify-content: left;
+      margin-top: 5px;
+    }
+    .info_plus a{
+      font-size: 5px;
+    }
+
+    div.accessibilità {
+      display: none;
+    }
+
+    div.scuola {
+      display: none;
+    }
+
+    div.famiglie {
+      display: none;
+    }
+
+    div.educazione {
+      display: none;
+    }
+
+    div.guide {
+      display: none;
+    }
+
+    div.studiosi {
+      display: none;
+    }
+
+    .Altre_info a {
+      padding: 3px;
+      text-align: left;
+      font-size: 15px;
+      flex-grow: 1;
+      margin-left: 1px;
+    }
+    footer {
+      display: block;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .footer .Logo {
+      text-align: left;
+      margin-bottom: 10px;
+      margin-top: -90px;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .footer .Link_fine {
+      margin-left: 0;
+      margin-top: -25px;
+    }
+  
+    .footer .Link_fine a {
+      font-size: 10px;
+      margin: 5px 0;
+      margin-top: -40px;
+    }
+
+  }
